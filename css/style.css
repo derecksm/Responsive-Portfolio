@@ -1,0 +1,360 @@
+/* =============== 
+Entire Sheet
+=============== */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* =============== 
+  Body
+  =============== */
+
+body {
+    background-image: url(../images/prism.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =============== 
+  Header
+  =============== */
+
+.header {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #4aaaa5;
+    /* margin-top: -16px; */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    height: 70px;
+}
+
+.nav-item-bar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    color: lightgray;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-item {
+    margin: 15px;
+}
+
+@media screen and (min-width: 760px) {
+    .header {
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-between;
+      -webkit-justify-content: space-between;
+      align-items: center;
+      -webkit-align-items: center;
+      background-color: white;
+      top: 0;
+    }
+  
+    .header .logo {
+      margin: 0px 50px;
+      padding: 10px;
+      background-color: #44aaa5;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    .header {
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-between;
+      -webkit-justify-content: space-between;
+      align-items: center;
+      -webkit-align-items: center;
+      background-color: white;
+      top: 0;
+    }
+  
+    .header .logo {
+      margin: 0px 50px;
+      padding: 10px;
+      background-color: #44aaa5;
+    }
+  }
+/* =============== 
+  Index.html
+  =============== */
+
+.container-about-me {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    margin: 40px 50px;
+}
+
+.title-about-me {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid lightgray;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.selfie {
+    display: flex;
+    justify-content: center;
+}
+
+.selfie-img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+/* =============== 
+  Portfolio.html
+  =============== */
+.mainbox {
+background-color: white;
+padding: 0px 20px;
+margin: 40px 50px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-flow: row wrap;
+    background-color: white;
+    padding: 0px 20px;
+    margin: 40px 50px;
+}
+
+.title-contact {
+    display: block;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid lightgray;
+    font-size: 40px;
+    padding: 20px;
+    /* margin-bottom: 15px; */
+    max-width: 100%;
+}
+
+.image-1-container {
+    position: relative;
+    z-index: 0;
+    margin: 10px;
+    width: 45%;
+    height: auto;
+}
+
+.image-1 {
+    width: 100%;
+}
+
+.text-1 {
+    position: absolute;
+    background-color: #44aaa5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 10;
+}
+
+.image-2-container {
+    position: relative;
+    width: 45%;
+    height: auto;
+    margin: 10px;
+}
+
+.image-2 {
+    width: 100%;
+}
+
+.text-2 {
+    position: absolute;
+    background-color: #44aaa5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 10;
+}
+
+.image-3-container {
+    position: relative;
+    z-index: 0;
+    margin: 10px;
+    width: 45%;
+    height: auto;
+}
+
+.image-3 {
+    width: 100%;
+}
+
+.text-3 {
+    position: absolute;
+    background-color: #44aaa5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 10;
+}
+
+.image-4-container {
+    position: relative;
+    z-index: 0;
+    margin: 10px;
+    width: 45%;
+    height: auto;
+}
+
+.image-4 {
+    width: 100%;
+}
+
+.text-4 {
+    position: absolute;
+    background-color: #44aaa5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 10;
+}
+
+.image-5-container {
+    position: relative;
+    z-index: 0;
+    margin: 10px;
+    width: 45%;
+    height: auto;
+}
+
+.image-5 {
+    width: 100%;
+}
+
+.text-5 {
+    position: absolute;
+    background-color: #44aaa5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 10;
+}
+
+/* =============== 
+  Contact.html
+  =============== */
+.container-contact {
+    display: block;
+    background-color: white;
+    padding: 0px 20px;
+    margin: 40px 50px;
+}
+.contact {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid lightgray;
+    font-size: 40px;
+    padding: 20px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+.name , .email , .message {
+    display: block;
+    margin: 5px 0px;
+}
+#name , #email {
+    width: 100%;
+    height: 25px;
+    padding: 0px 5px;
+    border: 1px solid lightgray;
+}
+
+#subject {
+    width: 100%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #44aaa5;
+    padding: 15px 25px;
+    margin: 10px 0px;
+    color: white;
+}
+
+
+/* =============== 
+  Footer
+  =============== */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    background-color: #575757;
+    color: white;
+    border-top: 2px solid #4aaaa5;
+    height: 60px;
+}
