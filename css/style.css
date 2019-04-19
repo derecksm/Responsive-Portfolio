@@ -34,7 +34,7 @@ a {
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: #4aaaa5;
+    background-color: #b00b00;
 }
 
 .logo {
@@ -44,6 +44,7 @@ a {
     color: white;
     font-size: 30px;
     height: 70px;
+    text-decoration: none;
 }
 
 .nav-item-bar {
@@ -51,7 +52,6 @@ a {
     justify-content: center;
     align-content: center;
     background-color: white;
-    color: lightgray;
     padding: 10px;
 }
 
@@ -59,13 +59,23 @@ a {
     margin: 15px;
 }
 
-.nav-item:hover, .nav-item:visited {
+.a-link {
     text-decoration: none;
-    list-style: none;
-    color: #2a2a2a
+    color: black;
+    background-color: white;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    padding: 0px;
 }
 
-@media screen and (min-width: 760px) {
+.a-link:hover {
+    padding: 0px;
+}
+
+@media screen and (min-width: 800px) {
     .header {
         display: flex;
         display: -webkit-flex;
@@ -79,38 +89,40 @@ a {
     .header .logo {
         margin: 0px 50px;
         padding: 10px;
-        background-color: #44aaa5;
+        background-color: #b00b00;
     }
-}
-
-@media screen and (min-width: 640px) {
-    .header {
-        display: flex;
-        display: -webkit-flex;
-        justify-content: space-between;
-        -webkit-justify-content: space-between;
-        align-items: center;
-        -webkit-align-items: center;
+    .a-link {
+        text-decoration: none;
+        color: black;
         background-color: white;
-        top: 0;
-    }
-    .header .logo {
-        margin: 0px 50px;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
         padding: 10px;
-        background-color: #44aaa5;
+        margin: 0px;
+    }
+    .a-link:hover {
+        background-color: #b00b00;
+        color: white;
+        padding: 10px;
+        margin: 0px;
     }
 }
 
 /* =============== 
   Index.html
   =============== */
-#container-about-me{
+
+#container-about-me {
     background-color: white;
     margin: 40px 50px;
     padding-bottom: 25px;
 }
-#title-about-me{
-    color: #4aaaa5;
+
+#title-about-me {
+    color: #b00b00;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px solid lightgray;
     font-size: 40px;
@@ -121,11 +133,12 @@ a {
 }
 
 #selfie-img {
- display: block;
- margin: auto;
- max-width: 75%;
- height: auto; 
+    display: block;
+    margin: auto;
+    max-width: 75%;
+    height: auto;
 }
+
 #bio-title {
     font-family: droid serif;
     font-size: 35px;
@@ -133,10 +146,10 @@ a {
     text-align: center;
     margin: 10px
 }
-#bio-description-1, #bio-description-2, #bio-description-3  {
-margin: 15px 25px;
-}
 
+#bio-description-1, #bio-description-2, #bio-description-3 {
+    margin: 15px 25px;
+}
 
 @media screen and (min-width: 1000px) {
     #container-about-me {
@@ -146,9 +159,8 @@ margin: 15px 25px;
         flex-wrap: wrap;
         margin: 40px 50px;
     }
-    
     #title-about-me {
-        color: #4aaaa5;
+        color: #b00b00;
         font-family: Georgia, 'Times New Roman', Times, serif;
         border-bottom: 2px solid lightgray;
         font-size: 40px;
@@ -156,7 +168,6 @@ margin: 15px 25px;
         margin-bottom: 15px;
         width: 100%;
     }
-    
     #bio {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -165,7 +176,6 @@ margin: 15px 25px;
         width: 100%;
         padding: 10px 20px;
     }
-    
     #selfie-img {
         max-width: 100%;
         height: auto;
@@ -174,7 +184,6 @@ margin: 15px 25px;
         grid-row: 1 / span 4;
         margin: auto;
     }
-    
     #bio-title {
         grid-column: 2 / span 1;
         grid-row: 1 / span 1;
@@ -182,17 +191,14 @@ margin: 15px 25px;
         font-size: 42px;
         color: #2a2a2a;
     }
-    
     #bio-description-1 {
         grid-column: 2 / span 1;
         grid-row: 2 / span 1;
     }
-    
     #bio-description-2 {
         grid-column: 2 / span 1;
         grid-row: 3 / span 1;
     }
-    
     #bio-description-3 {
         grid-column: 2 / span 1;
         grid-row: 4 / span 1;
@@ -204,7 +210,7 @@ margin: 15px 25px;
   =============== */
 
 #porty {
-    color: #4aaaa5;
+    color: #b00b00;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px solid lightgray;
     font-size: 40px;
@@ -247,7 +253,7 @@ margin: 15px 25px;
     width: 200px;
     padding: 10px;
     color: white;
-    background-image: linear-gradient(to bottom, #4aaaa5 50%, white)
+    background-image: linear-gradient(to bottom, #b00b00 50%, white)
 }
 
 #spacer {
@@ -267,7 +273,7 @@ margin: 15px 25px;
 }
 
 .contact {
-    color: #4aaaa5;
+    color: #b00b00;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px solid lightgray;
     font-size: 40px;
@@ -295,7 +301,7 @@ margin: 15px 25px;
 }
 
 .button {
-    background-color: #44aaa5;
+    background-color: #b00b00;
     padding: 15px 25px;
     margin: 10px 0px;
     color: white;
@@ -312,7 +318,7 @@ margin: 15px 25px;
     bottom: 0;
     background-color: #575757;
     color: white;
-    border-top: 2px solid #4aaaa5;
+    border-top: 2px solid #b00b00;
     height: 60px;
     width: 100%;
     position: absolute;
