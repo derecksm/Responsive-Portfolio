@@ -8,7 +8,7 @@
 #
 #
 # Contact: 
-#### A contact form using Javascript and Firestore which is a traditional noSQL database with a JSON base.
+#### A contact form using Javascript and Firestore which is flexible, scalable database for mobile, web, and server development.
 #
 #
 # Resume: 
