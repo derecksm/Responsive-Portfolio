@@ -1,5 +1,5 @@
 /* =============== 
-Entire Sheet
+entire Sheet
 =============== */
 
 * {
@@ -9,7 +9,7 @@ Entire Sheet
 }
 
 /* =============== 
-  Body
+  body
   =============== */
 
 html {
@@ -27,7 +27,7 @@ a {
 }
 
 /* =============== 
-  Header
+  header
   =============== */
 
 .header {
@@ -112,7 +112,7 @@ a {
 }
 
 /* =============== 
-  Index.html
+  index.html
   =============== */
 
 #container-about-me {
@@ -206,7 +206,7 @@ a {
 }
 
 /* =============== 
-  Portfolio.html
+  portfolio.html
   =============== */
 
 #porty {
@@ -262,7 +262,7 @@ a {
 }
 
 /* =============== 
-  Contact.html
+  contact.html
   =============== */
 
 .container-contact {
@@ -300,13 +300,22 @@ a {
     margin-bottom: 10px;
 }
 
-.button {
+#button {
     background-color: #b00b00;
     padding: 15px 25px;
     margin: 10px 0px;
     color: white;
 }
 
+/* =============== 
+  resume.html
+  =============== */
+#resume {
+display: block;
+background-color: white;
+padding: 0px 20px;
+margin: 40px 50px;
+}
 /* =============== 
   Footer
   =============== */
@@ -324,7 +333,3 @@ a {
     position: absolute;
     margin-top: 25px;
 }
-
-/* =============== 
-  Index 2
-=============== */
